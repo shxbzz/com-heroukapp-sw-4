@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="regression Suite" verbose="1">
+    <groups>
+        <run>
+            <include name="regression"></include>
+
+        </run>
+    </groups>
+    <test name="Login Test">
+        <classes>
+            <class name="login.com.herokuapp.internet_the.testsuite.LoginPageTest"></class>
+        </classes>
+    </test>
+</suite>
